@@ -12,8 +12,7 @@ public class _02_Arithmetic {
 		Scanner Input = new Scanner(System.in);
 		int result = Input.nextInt();
 		Input.close();
-		int hour = result / 60;
-		int min 
+		int hour = result / 60; 
 		System.out.printf("입력한 숫자는 %d 입니다. ",result);
 		
 	}
