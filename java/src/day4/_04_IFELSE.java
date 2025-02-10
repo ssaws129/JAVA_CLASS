@@ -30,7 +30,8 @@ public class _04_IFELSE {
 		{
 			System.out.println("합격");
 		}
-	s
+		
+		
 	}
 
 }
