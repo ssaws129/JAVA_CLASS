@@ -23,7 +23,7 @@ public class _04_for {
 			}
 		}
 		System.out.println("1~100사이의 3의 배수의 합은" + total + "입니다.");
-		System.out.println("1~100사이의 3의 개수는" + count +"입니다.");
+		System.out.println("1~100사이의 3 배수의 개수는" + count +"입니다.");
 		//1. 3의 배수의 합계
 		//2. 3의 배수가 몇개인지
 	
