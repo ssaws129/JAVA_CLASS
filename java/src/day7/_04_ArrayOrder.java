@@ -1,6 +1,7 @@
 package day7;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class _04_ArrayOrder {
 
@@ -27,8 +28,14 @@ public class _04_ArrayOrder {
 		System.out.println();
 		int[] arr2 = {1,6,2,3,10,7,4,5,8,9};
 		System.out.println("정렬 전 배열 : " + Arrays.toString(arr2));
-		Arrays.sort(arr2); //정렬 배열
+		Arrays.sort(arr2); //오름 차순 정렬
 		System.out.println("정렬 후 배열 : " + Arrays.toString(arr2));
+		
+		Integer[] arr3 = {1,6,2,3,10,7,4,5,8,9};
+		System.out.println("내림 차순 정렬 전 배열 : " + Arrays.toString(arr3));
+		Arrays.sort(arr3,Comparator.reverseOrder()); //내림 차순 정렬 
+		System.out.println("내림 차순 정렬 후 배열 : " + Arrays.toString(arr3));
+	
 	}
 
 }
