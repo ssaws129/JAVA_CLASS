@@ -20,6 +20,7 @@ public class _04_TwinjArray {
 			}
 			
 			System.out.println();
+			
 		
 		}
 		
