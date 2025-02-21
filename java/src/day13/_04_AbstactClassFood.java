@@ -1,5 +1,7 @@
 package day13;
 
+
+
 abstract class Food{
 	abstract void recipe();
 	
