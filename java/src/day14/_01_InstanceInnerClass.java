@@ -8,6 +8,8 @@ class House{
 	}
 }
 
+
+
 public class _01_InstanceInnerClass {
 
 	public static void main(String[] args) {
@@ -20,6 +22,7 @@ public class _01_InstanceInnerClass {
 		 * 외부클래스 객체(집, instance)이 있어야만 사용할 수 있는 클래스
 		 * 
 		 */
+		
 	}
 
 }
